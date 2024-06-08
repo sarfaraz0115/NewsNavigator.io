@@ -1,0 +1,75 @@
+.min-vh-80{
+    min-height: 47.5vh !important;
+}
+.btn41-43 {
+    padding: 10px 18px;
+    font-weight: 500;
+    background: transparent;
+    outline: none !important;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .btn-41 {
+    border: 2px solid #363641;
+    background-color: #B4BDFF;
+    z-index: 1;
+  }
+  
+  .btn-41:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    direction: rtl;
+    z-index: -1;
+    background: #83A2FF; 
+    transition: all 0.3s ease;
+  }
+  
+  .btn-41:hover {
+    color: rgb(0, 0, 0);
+    border: 2px solid #fff;
+  }
+  
+  .btn-hoverPrev:hover:after {
+    left: auto;
+    right: 0;
+    width: 100%;
+  }
+  
+  .btn-hoverNext:hover:after {
+    left: 0;
+    right: auto;
+    width: 100%;
+  }
+  
+  .btn-41:active {
+    top: 2px;
+  }
+
+  .alert {
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+    margin-bottom: 15px;
+  }
+  
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .closebtn:hover {
+    color: black;
+  }

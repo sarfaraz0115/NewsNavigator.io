@@ -1,0 +1,15 @@
+.active{
+    border-bottom: 2px solid red;
+    font-weight: bold;
+}
+
+.p-sticky{
+    position: sticky;
+    top: 0;
+    z-index: 6;
+}
+
+.rotate-effect {
+    transition: transform 1s ease; 
+    transform: rotate(360deg);
+  }

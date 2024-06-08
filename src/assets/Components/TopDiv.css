@@ -1,0 +1,11 @@
+.font-light{
+    opacity: 0.5;
+    font-weight: 500;
+}
+
+@media  screen and (max-width:722px) {
+    .top-div{
+        flex-direction: column;
+        gap: 30px;
+    }
+}
